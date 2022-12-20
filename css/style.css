@@ -1,4 +1,5 @@
 body {
+    height: 1500px;
     margin: 0;
     font-family: 'Merriweather', serif;
 }
@@ -8,18 +9,18 @@ h2, h3 {
 }
 
 .top-container {
-    height: 500px;
+    height: 34%;
     background-color: #2b3a55;
     color: #f2e5e5;
     position: relative;
-    padding-top: 100px;
+    padding-top: 8%;
     text-align: center;
 }
 
 .first-cloud {
     position: absolute;
-    right: 400px;
-    top: 50px;
+    right: 28%;
+    top: 10%;
 }
 
 .my-name {
@@ -30,12 +31,22 @@ h2, h3 {
 
 .second-cloud {
     position: absolute;
-    left: 400px;
-    bottom: 300px;
+    left: 28%;
+    bottom: 57%;
 }
 
 .mountain {
     position: absolute;
     bottom: 0;
-    left: 485px;
+    left: 31%;
+}
+
+.middle-container {
+    height: 33%;
+    background-color: aqua;
+}
+
+.bottom-container {
+    height: 33%;
+    background-color: aquamarine;
 }
