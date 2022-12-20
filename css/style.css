@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Merriweather', serif;
+    text-align: center;
 }
 
 h2, h3 {
@@ -8,54 +9,102 @@ h2, h3 {
 }
 
 .top-container {
-    height: 500px;
+    height: 100vh;
     background-color: #2b3a55;
     color: #f2e5e5;
     position: relative;
-    padding-top: 100px;
-    text-align: center;
 }
 
 .first-cloud {
+    height: 10vh;
+    width: 10vw;
     position: absolute;
-    right: 420px;
-    top: 50px;
+    right: 30vw;
+    top: 10vh;
 }
 
 .my-name {
-    margin-top: 0;
+    position: absolute;
+    left: 45vw;
+    top: 20vh;
     margin-bottom: 0;
+    margin-top: 0;
     font-family: 'Sacramento', cursive;
 }
 
-.second-cloud {
+.introduction {
     position: absolute;
-    left: 420px;
-    bottom: 320px;
+    left: 45vw;
+    top: 25vh;
+}
+
+.second-cloud {
+    height: 10vh;
+    width: 10vw;
+    position: absolute;
+    left: 30vw;
+    top: 35vh;
 }
 
 .mountain {
+    height: 50vh;
+    width: 50vw;
     position: absolute;
     bottom: 0;
-    left: 480px;
+    left: 25vw;
+}
+
+.profile-picture {
+    height: 28vh;
+    width: 15vw;
 }
 
 .middle-container {
-    height: 500px;
-    background-color: aqua;
+    background-color: #d6e4e5;
+    color: #263159;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 .bottom-container {
-    height: 500px;
-    background-color: aquamarine;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: #fffbeb;
+    color: #251749;
 }
 
-.fourth-container {
-    height: 500px;
-    background-color: aqua;
+.copyright {
+    margin-top: 1vh;
+    margin-bottom: 0;
 }
 
-.fifth-container {
-    height: 500px;
-    background-color: aquamarine;
+.web-dev-icon {
+    height: 20vh;
+    width: 10vw;
+}
+
+.google-icon {
+    height: 20vh;
+    width: 10vw;
+}
+
+#linkedin {
+    margin-right: 1vw;
+}
+
+#facebook {
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+#github {
+    margin-left: 1vw;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    width: 8%;
+    border-width: 1vw;
+    color: #251749;
 }
