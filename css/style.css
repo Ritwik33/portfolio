@@ -4,38 +4,39 @@ body {
     text-align: center;
 }
 
-h2, h3 {
-    font-family: 'Montserrat', sans-serif;
-}
-
 .top-container {
-    height: 70vh;
+    height: 80vh;
     background-color: #2b3a55;
-    color: #f2e5e5;
     position: relative;
     padding-top: 20vh;
 }
 
 .first-cloud {
     height: 10vh;
-    width: 10vw;
+    width: 12vw;
     position: absolute;
-    right: 30vw;
-    top: 10vh;
+    right: 23vw;
+    top: 8vh;
 }
 
-.my-name {
-    margin-bottom: 0;
-    margin-top: 0;
+h1 {
+    margin: 0 auto 0 auto;
     font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66bfbf;
+    font-weight: normal;
+}
+
+#intro {
+    margin: 0;
 }
 
 .second-cloud {
     height: 10vh;
-    width: 10vw;
+    width: 12vw;
     position: absolute;
-    left: 30vw;
-    top: 35vh;
+    left: 23vw;
+    top: 50vh;
 }
 
 .mountain {
@@ -46,28 +47,35 @@ h2, h3 {
     left: 25vw;
 }
 
+.middle-container {
+    background-color: #d6e4e5;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
 .profile-picture {
     height: 28vh;
     width: 15vw;
 }
 
-.middle-container {
-    background-color: #d6e4e5;
-    color: #263159;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #66bfbf;
+    font-weight: normal;
 }
 
-.bottom-container {
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    background-color: #fffbeb;
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999e;
+    font-weight: normal;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    width: 5vw;
+    border-width: 10px;
     color: #251749;
-}
-
-.copyright {
-    margin-top: 1vh;
-    margin-bottom: 0;
 }
 
 .web-dev-icon {
@@ -78,6 +86,16 @@ h2, h3 {
 .google-icon {
     height: 20vh;
     width: 10vw;
+}
+
+.bottom-container {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: #fffbeb;
+}
+
+a {
+    color: #11999e;
 }
 
 #linkedin {
@@ -93,10 +111,7 @@ h2, h3 {
     margin-left: 1vw;
 }
 
-hr {
-    border-style: none;
-    border-top-style: dotted;
-    width: 6vw;
-    border-width: 10px;
-    color: #251749;
+.copyright {
+    margin-top: 1vh;
+    margin-bottom: 0;
 }
