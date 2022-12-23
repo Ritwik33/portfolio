@@ -54,7 +54,7 @@ h1 {
 }
 
 .profile-picture {
-    height: 28vh;
+    height: 30vh;
     width: 15vw;
 }
 
@@ -75,23 +75,71 @@ hr {
     border-top-style: dotted;
     width: 5vw;
     border-width: 10px;
-    color: #251749;
+    color: #11999e;
+    margin: 40px auto 40px auto;
+}
+
+.my-skills-heading {
+    margin-top: 50px;
+}
+
+.skill-row {
+    width:50%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+    line-height: 2;
 }
 
 .web-dev-icon {
-    height: 20vh;
-    width: 10vw;
+    margin-right: 30px;
+    width: 25%;
+    float: left;
 }
 
 .google-icon {
-    height: 20vh;
-    width: 10vw;
+    margin-left: 30px;
+    width: 25%;
+    float: right;
+}
+
+.contact-me {
+    margin-bottom: 10px;
+}
+
+.contact-me p {
+    margin-bottom: 25px;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    color: #eaf6f6;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
 }
 
 .bottom-container {
     padding-top: 2vh;
     padding-bottom: 2vh;
-    background-color: #fffbeb;
+    background-color: #66bfbf;
 }
 
 a {
@@ -112,6 +160,6 @@ a {
 }
 
 .copyright {
-    margin-top: 1vh;
-    margin-bottom: 0;
+    margin: 10px auto 10px auto;
+    color: #eaf6f6;
 }
